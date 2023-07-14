@@ -1,0 +1,187 @@
+:root{
+    --main-color:#4C5FD5;
+    --secondary-color:#dadbf1;
+    --text-color:#12121200;
+ font-size: 16px;
+    
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+}
+.button{
+    padding: 1rem;
+    /* margin-inline: 30px;
+    margin-block:15px ; */
+}
+#buton-bor{
+    padding: 15px 30px;
+    font-size: 1.3rem;
+    background-color: transparent;
+    color: white;
+    border:var(--main-color) 2px solid;
+    border-radius: 3rem;
+    transition: all 600ms ease-in-out;
+    cursor: pointer;
+
+}
+#buton-bor:hover{
+    background-color: var(--main-color);
+    border: white;
+}
+#fill{
+    background-color: var(--main-color);
+    font-size: 1.6rem;
+    border:var(--main-color) 2px solid;
+    border-radius: 3rem;
+    padding:15px 30px ;
+    color: white;
+    margin-inline: 2rem;
+    transition: all 600ms ease-in-out;
+    cursor: pointer;
+}
+#fill:hover{
+    background-color: white;
+    color: var(--main-color);
+}
+.logo{
+    background-color: transparent;
+    margin-block: 20px;
+}
+#homepage{
+    /* margin: ; */
+    background-color: var(--secondary-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;padding: 50px;
+    text-align: center;
+    font-size: 4rem;
+    height: 70vh;
+    padding: 10px auto;
+}
+h1{
+    margin-bottom: 50px;
+    color: black;
+    word-spacing: 0.2ch;
+    letter-spacing: 0.2ch;
+    font-family: 'Bebas Neue', sans-serif;
+}
+#about-page{
+    margin: 1rem;
+    padding: 1.5rem;
+}
+.grid
+{
+    /* background-color: #dadbf1; */
+    
+    width: 100%;
+    
+    
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill,minmax(350px, 650px));
+    grid-gap: 2.3rem;
+}
+.content{
+    /* background-color: aliceblue; */
+    height:450px;
+    /* width: 300px; */
+    margin: 30px;
+    display:grid;
+    flex: 1;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1.3rem;
+}
+
+.text-about{
+    /* background-color: beige; */
+    padding: 2em;
+}
+.text-about h2{
+    font-size: 2.5rem;
+    font-family: 'Libre Baskerville', serif;
+}
+.text-about p{
+
+    line-height: 1.7;
+    margin-block: 40px;
+    font-family: 'Playfair Display', serif;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.f{
+    margin: 30px auto;
+    height: 30vh;
+    padding: 20px 40px;
+    transition: all 600ms ease-in-out;
+    /* background-color: blue; */
+    width: 25%;
+}
+.f h2:hover,.f ul li:hover{
+    color: var(--main-color);
+}
+.f h2{
+    margin-bottom:20px;
+    font-size: 1.9rem;
+    transition: all 600ms ease-in-out;
+    font-weight: 600;
+}
+.f ul{
+    list-style: none;
+    transition: all 600ms ease-in-out;
+}
+.f ul li{
+    margin-block:20px ;
+    font-size: 1.2em;
+    transition: all 600ms ease-in-out;
+}
+.fa{
+    font-size: 8rem;
+    margin-top: 3rem;
+}
+.fa-cabin{
+    font-size: 3rem;
+}
+input{
+    width: 60vh;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+   border-radius: 3rem;
+    padding: 20px 40px;
+}
+.logo  i{
+    width: 100%;
+    height: auto;
+    font-size: 3rem;
+    background-color: transparent;
+    margin: 20px;
+}
